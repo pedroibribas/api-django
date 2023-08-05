@@ -1,10 +1,12 @@
 # boilr-api-django
 um boillerplate para api django
 
-## rodar projeto
+## inicializar projeto localmente (windows)
 ```shell
-git clone repo
-cd repo
+git clone https://github.com/pedroibribas/boilr-api-django.git
+cd boilr-api-django
+py -m venv ./venv
+venv\Scripts\activate.bat
 pip install -r requirements.txt
 py manage.py runserver
 ```
